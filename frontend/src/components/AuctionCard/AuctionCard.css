@@ -1,0 +1,28 @@
+.auction-card-image-link {
+  display: block;
+  overflow: hidden;
+}
+
+.auction-card-image-link:hover .auction-card-image {
+  transform: scale(1.02);
+}
+
+.auction-card-image {
+  transition: transform 0.3s ease;
+}
+
+.auction-card-title-link {
+  text-decoration: none;
+}
+
+.auction-card-title-link:hover .auction-card-title {
+  color: var(--color-accent);
+}
+
+.auction-card-title {
+  transition: color var(--transition);
+}
+
+.text-right {
+  text-align: right;
+}
